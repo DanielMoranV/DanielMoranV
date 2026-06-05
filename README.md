@@ -1,55 +1,215 @@
-# 👋 ¡Hola! Soy Daniel Morán
+# 👋 Hi, I'm Daniel Morán
 
-Soy desarrollador **Full Stack** con enfoque en la creación de soluciones **multiempresa (SaaS)**, optimizadas para la gestión de recursos empresariales. Tengo experiencia en **Laravel**, **NestJS**, **Vue.js** y **PostgreSQL**, y disfruto construir aplicaciones robustas, modulares y bien estructuradas.
+Backend Engineer | Data Engineer | Full Stack Developer
 
----
+I build scalable business applications, data platforms and cloud-native solutions focused on process optimization, system modernization and AI-powered automation.
 
-## 🚀 Proyectos destacados
-
-### 🔹 [AlmaZen ERP](https://almazen-frontend.vercel.app)
-Sistema de gestión empresarial para inventario, ventas, compras, caja y usuarios, desarrollado con:
-- **Frontend**: Vue.js 3 + PrimeVue + TailwindCSS
-- **Backend**: Laravel 10+, JWT + Sanctum, PostgreSQL
-- Arquitectura API-first y multiempresa (multi-tenant)
-- [Frontend en GitHub](https://github.com/DanielMoranV/almazen_frontend)  
-- [Backend en GitHub](https://github.com/DanielMoranV/backend_almazen)
+Currently working on healthcare systems used daily by administrative staff and medical professionals, leading initiatives in backend development, data engineering, infrastructure and software architecture.
 
 ---
 
-## 🧰 Tecnologías que uso
+## 🚀 What I Do
 
-**Backend:**
-- Laravel / PHP 8.2+
-- NestJS / TypeScript
-- PostgreSQL / MySQL
-- JWT / Laravel Sanctum
+### Backend Engineering
 
-**Frontend:**
+- Laravel (PHP)
+- FastAPI (Python)
+- NestJS (TypeScript)
+- REST APIs
+- Authentication & Authorization
+- Multi-tenant SaaS Architectures
+
+### Data Engineering
+
+- ETL Pipelines
+- Data Migration
+- PostgreSQL Administration
+- SQL Optimization
+- Legacy System Modernization
+
+### Cloud & DevOps
+
+- Docker & Docker Compose
+- GitHub Actions (CI/CD)
+- AWS (EC2, S3)
+- Cloudflare Zero Trust
+- Linux Server Administration
+- Nginx
+
+### AI & Automation
+
+- OpenAI
+- Gemini
+- Claude
+- Ollama
+- AI-assisted Development
+- Business Process Automation
+
+---
+
+# 🏥 Current Impact
+
+Currently contributing to the development and modernization of healthcare management systems including:
+
+- Hospitalization Management
+- Medical Insurance Management
+- Medical Scheduling
+- Document Management
+- Ticketing Systems
+- Business Intelligence Dashboards
+- Operational Metrics
+
+### Key Achievements
+
+✅ Migrated 500,000+ historical records from legacy FoxPro systems to PostgreSQL
+
+✅ Automated ETL processes synchronizing 2,000+ records daily
+
+✅ Developed and maintained 20+ production modules
+
+✅ Systems actively used by 50+ staff members and healthcare professionals
+
+✅ Designed secure remote access infrastructure using Cloudflare Zero Trust
+
+---
+
+# 🚀 Featured Projects
+
+## AlmaZen ERP
+
+Multi-tenant ERP platform for inventory, sales, purchasing and electronic invoicing.
+
+### Stack
+
+Frontend:
+- Vue 3
+- PrimeVue
+- TailwindCSS
+
+Backend:
+- Laravel
+- PostgreSQL
+- JWT
+- Sanctum
+
+Infrastructure:
+- Docker
+- GitHub Actions
+- Vercel
+
+🔗 Demo:
+https://almazen-frontend.vercel.app
+
+🔗 Frontend:
+https://github.com/DanielMoranV/almazen_frontend
+
+🔗 Backend:
+https://github.com/DanielMoranV/backend_almazen
+
+---
+
+## EasyPay
+
+Payroll, attendance and HR management platform.
+
+### Features
+
+- Employee Management
+- Attendance Tracking
+- Schedule Management
+- Payroll Processing
+- HR Operations
+
+---
+
+# 🧰 Tech Stack
+
+### Languages
+
+- Python
+- PHP
+- JavaScript
+- TypeScript
+- SQL
+
+### Backend
+
+- Laravel
+- FastAPI
+- NestJS
+- Node.js
+
+### Frontend
+
 - Vue.js 3
-- PrimeVue / TailwindCSS
-- Pinia / Vue Router
-- Vite
+- Pinia
+- PrimeVue
+- TailwindCSS
 
-**DevOps & Tools:**
-- Docker / Render / Vercel
-- Git / GitHub / GitHub Actions
-- PestPHP / Postman
-- Linux (Pop!_OS) / VS Code
+### Databases
+
+- PostgreSQL
+- MySQL
+- Redis
+
+### Infrastructure
+
+- Docker
+- AWS
+- Cloudflare
+- Linux
+- Nginx
+
+### DevOps
+
+- GitHub Actions
+- CI/CD
+- Git
+- Postman
+
+### AI
+
+- OpenAI
+- Gemini
+- Claude
+- Ollama
 
 ---
 
-## 📈 GitHub Stats
+# 📚 Currently Learning
 
-![Daniel's GitHub Stats](https://github-readme-stats.vercel.app/api?username=DanielMoranV&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=DanielMoranV&layout=compact&theme=radical)
-
----
-
-## 📫 ¿Quieres contactarme?
-
-- [LinkedIn](https://linkedin.com/in/danielmoranv)  
-- Email: daniel.moranv94@gmail.com  
+- Software Architecture
+- Domain Driven Design (DDD)
+- Event-Driven Systems
+- AI Agents
+- RAG Architectures
+- LangGraph
+- AWS Solutions Architecture
 
 ---
 
-🌱 Actualmente aprendiendo más sobre NestJS, arquitectura escalable, optimización de procesos y uso de IA en desarrollo de software.
+# 📈 GitHub Stats
+
+![Daniel's GitHub Stats](https://github-readme-stats.vercel.app/api?username=DanielMoranV&show_icons=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=DanielMoranV&layout=compact)
+
+---
+
+# 📫 Contact
+
+LinkedIn:
+https://linkedin.com/in/danielmoranv
+
+GitHub:
+https://github.com/DanielMoranV
+
+Email:
+skaan.dmv@gmail.com
+
+Location:
+Piura, Peru
+
+---
+
+⭐ Interested in Backend Engineering, Data Engineering, Software Architecture and AI-powered Business Automation.
