@@ -55,6 +55,9 @@ referential integrity, and using byte-range locking so records can be appended *
 staff are actively working in the 1990s FoxPro application**. No downtime, no corruption.
 This is what made migrating 500,000+ historical records possible without stopping a clinic.
 
+The engine itself is open source, stripped of every business rule:
+**[py-foxpro-engine](https://github.com/DanielMoranV/py-foxpro-engine)**.
+
 ---
 
 ## 📊 By the numbers
@@ -143,6 +146,7 @@ the traffic is anonymous and the data is already public.
 
 | Package | What it is |
 |---|---|
+| **[py-foxpro-engine](https://github.com/DanielMoranV/py-foxpro-engine)** | Reads *and writes* FoxPro/dBASE `.dbf` files at the byte level, with byte-range locking so you can append while the legacy application has the table open. No dependencies, cross-platform · MIT |
 | **[sunat-comprobantes](https://github.com/DanielMoranV/sunat-comprobantes)** | Peruvian electronic invoicing (SUNAT) utilities. Published on Packagist as `djasoft/sunat-comprobantes` · MIT |
 | **[nomenclador](https://github.com/DanielMoranV/nomenclador)** | Bulk PDF invoice renaming with OCR fallback (Tesseract), following each insurer's required naming scheme |
 | **[almazen-api](https://github.com/DanielMoranV/almazen-api)** · **[almazen_frontend](https://github.com/DanielMoranV/almazen_frontend)** | The decoupled v2 of AlmaZen — Laravel API and Vue 3 client · PolyForm Noncommercial |
