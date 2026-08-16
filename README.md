@@ -1,240 +1,137 @@
-# 👋 Hi, I'm Daniel Morán
+# Daniel Morán Vílchez
 
-## Backend Engineer | Data Engineer | Full Stack Developer
+**Full Stack Developer · Data Engineer** — Piura, Peru
 
-I design and build scalable business applications, data platforms and cloud-native solutions focused on process optimization, legacy system modernization and AI-powered automation.
+I build business software that ships: multi-tenant ERPs, electronic invoicing,
+and the data pipelines that move companies off legacy systems. Eight products
+of mine are live in production today; four of them for paying clients.
 
-Currently working on healthcare management systems used daily by administrative staff and medical professionals, leading initiatives across backend development, data engineering, cloud infrastructure and software architecture.
-
-📍 Piura, Peru  
-📧 skaan.dmv@gmail.com  
-💼 LinkedIn: https://linkedin.com/in/danielmoranv  
-💻 GitHub: https://github.com/DanielMoranV
+📍 Piura, Peru · 📧 skaan.dmv@gmail.com · 💼 [LinkedIn](https://linkedin.com/in/danielmoranv)
 
 ---
 
-# 🚀 Professional Highlights
+## 🚀 In production
 
-- 3+ years building and maintaining production systems
-- Led the modernization of critical healthcare platforms
-- Migrated 500,000+ historical records from FoxPro to PostgreSQL
-- Automated ETL pipelines processing 2,000+ records daily
-- Developed and maintained 20+ business modules
-- Systems actively used by 50+ administrative users and healthcare professionals
-- Experience leading technical initiatives and collaborating with multidisciplinary teams
-- Strong focus on software architecture, automation and continuous improvement
-
----
-
-# 🏥 Current Impact
-
-Currently contributing to the development and evolution of healthcare management platforms including:
-
-- Hospitalization Management
-- Medical Insurance Management
-- Medical Scheduling
-- Appointment Reservation Systems
-- Document Management
-- Internal Ticketing Systems
-- Operational Dashboards
-- Business Intelligence & Metrics
-
-### Key Responsibilities
-
-- Backend Development
-- Data Engineering & ETL
-- Database Administration
-- Cloud Infrastructure
-- System Integrations
-- API Design & Development
-- CI/CD Automation
-- Technical Leadership
+| Product | What it does | Stack | Live |
+|---|---|---|---|
+| **AlmaZen ERP** | Multi-tenant ERP: inventory, purchasing, sales, POS, electronic invoicing | Laravel · Livewire · PostgreSQL | [almazen.djasoft.net.pe](https://almazen.djasoft.net.pe/) |
+| **MozaicoPro** | Restaurant and order management | Java · Vue 3 | [mozaicopro.djasoft.net.pe](https://mozaicopro.djasoft.net.pe/) |
+| **EasyPay** | HR, attendance and payroll | TypeScript · NestJS | [easypay.djasoft.net.pe](https://easypay.djasoft.net.pe/) |
+| **Otto Tonsmann** — *client* | Sales, cash desk and student registry for a technical institute | Vue 3 · Firebase | [otto-tonsmann.web.app](https://otto-tonsmann.web.app/) |
+| **CONERI** — *client* | Corporate site, product catalog and admin panel for a solar energy company | Firebase · Cloud Functions · Cloudinary | [coneri.pe](https://coneri.pe/) |
+| **Master Color** — *client* | E-commerce platform (in active development) | Laravel · Vue 3 · Flutter | [mastercolor.net.pe](https://www.mastercolor.net.pe/) |
+| **SURGIMED** — *client* | Corporate site for a surgical equipment importer | Static · Firebase Hosting · GitHub Actions | [surgimed-pe.web.app](https://surgimed-pe.web.app/) |
+| **Agenda EH** | Eisenhower-matrix task manager with two-way Google Calendar sync | Vue 3 · Firestore · OAuth 2.0 | [agenda-eh.web.app](https://agenda-eh.web.app/) |
 
 ---
 
-# 🚀 Featured Projects
+## 📊 By the numbers
 
-## AlmaZen ERP
-
-Multi-tenant ERP platform designed for inventory management, purchasing, sales and electronic invoicing.
-
-### Features
-
-- Inventory Control
-- Purchase Management
-- Sales Management
-- Cash Flow Management
-- User & Role Administration
-- Multi-company Architecture
-
-### Tech Stack
-
-Frontend:
-- Vue 3
-- PrimeVue
-- TailwindCSS
-- Pinia
-
-Backend:
-- Laravel
-- PostgreSQL
-- JWT
-- Sanctum
-
-Infrastructure:
-- Docker
-- GitHub Actions
-- Vercel
-
-🔗 Demo  
-https://almazen-frontend.vercel.app
-
-🔗 Frontend Repository  
-https://github.com/DanielMoranV/almazen_frontend
-
-🔗 Backend Repository  
-https://github.com/DanielMoranV/backend_almazen
+- **3+ years** building and maintaining systems that run every day
+- **500,000+** historical records migrated from FoxPro to PostgreSQL
+- **2,000+** records processed daily through automated ETL pipelines
+- **50+** administrative and healthcare users on systems I maintain
+- **20+** business modules developed and in service
 
 ---
 
-## EasyPay
+## 🛠 Stack
 
-Human Resources, Attendance and Payroll Management Platform.
+Ordered by how much I actually use it, not by what looks good.
 
-### Features
+**Core**
+`PHP` · `Laravel` · `Livewire` — my backbone. AlmaZen ERP, electronic invoicing, inventory.
+`Vue 3` · `PrimeVue` · `Pinia` · `TailwindCSS` — the front end of nearly everything I ship.
+`Python` — not for web: ETL, legacy data migration, analytics, OCR automation.
+`TypeScript` · `NestJS` · `Express` — decoupled APIs and services.
 
-- Employee Management
-- Attendance Tracking
-- Schedule Management
-- Payroll Administration
-- HR Operations
-- Process Automation
+**Also shipping**
+`C#` (Windows desktop) · `Dart` / `Flutter` (mobile, offline-first) · `Java` · `Blade`
 
----
+**Data**
+`PostgreSQL` · `MySQL` · `Redis` · `SQLite` / `Drift` · `Prisma` · `Eloquent` · `SQLAlchemy`
+Legacy sources: `FoxPro` / `DBF`
 
-# 🧠 AI & Automation
-
-I actively use AI technologies to improve software development workflows and business processes.
-
-### Tools
-
-- OpenAI
-- ChatGPT
-- Claude
-- Gemini
-- Ollama
-- GitHub Copilot
-
-### Use Cases
-
-- Development Acceleration
-- Technical Documentation
-- Code Review
-- Refactoring
-- Debugging
-- Process Automation
-- Workflow Optimization
+**Infrastructure**
+`Docker` · `Nginx` · `GitHub Actions` · `Cloudflare` (Pages, R2, Tunnels) · `Firebase`
+(Firestore, Auth, Cloud Functions, Hosting) · `AWS` (EC2, S3) · `Linux`
 
 ---
 
-# 🛠️ Technical Stack
+## 🏗 Architecture I work with
 
-## Languages
-
-- Python
-- PHP
-- JavaScript
-- TypeScript
-- SQL
-
-## Backend
-
-- Laravel
-- FastAPI
-- NestJS
-- Node.js
-
-## Frontend
-
-- Vue.js 3
-- Pinia
-- PrimeVue
-- TailwindCSS
-- Vite
-
-## Databases
-
-- PostgreSQL
-- MySQL
-- Redis
-
-## Data Engineering
-
-- ETL Development
-- Data Migration
-- SQL Optimization
-- SQLAlchemy
-- Data Quality Management
-
-## Cloud & Infrastructure
-
-- AWS EC2
-- AWS S3
-- Cloudflare
-- Cloudflare R2
-- Docker
-- Docker Compose
-- Linux
-- Nginx
-
-## DevOps
-
-- Git
-- GitHub Actions
-- CI/CD
-- Postman
+- **Multi-tenancy** — company-level isolation in AlmaZen; one PostgreSQL schema per tenant
+  in a school management system, with per-tenant backup and migration.
+- **Decoupled API + SPA** — Laravel or NestJS behind a Vue 3 front end, JWT auth.
+- **Serverless / BaaS** — Firestore with Cloud Functions callables and triggers, security
+  rules as the real access-control layer.
+- **Offline-first mobile** — Flutter over local SQLite (Drift), full transactional business
+  logic with no network and no backend.
+- **ETL and legacy modernization** — FoxPro/DBF to PostgreSQL and MySQL, with data quality
+  checks and scheduled jobs.
+- **Queues and scheduled jobs** — BullMQ over Redis, cron-driven processes.
+- **Modular monolith** — Laravel + Livewire when a SPA would only add moving parts.
+- **Packaged desktop apps** — C# and Python compiled to portable Windows executables.
 
 ---
 
-# 📚 Currently Learning
+## 🤖 AI in production
 
-- Software Architecture
-- Domain-Driven Design (DDD)
-- Event-Driven Architecture
-- Microservices
-- AI Agents
-- RAG Systems
-- LangGraph
-- AWS Solutions Architecture
+Not "I use AI to code" — AI features shipped inside products.
 
----
+**AlmaZen — conversational assistant over the ERP.** A function-calling agent with
+**29 read-only tools** (stock levels, sales summaries, margin analysis, expiring
+batches, customer debt, cash position, inventory valuation), built behind a
+provider-agnostic `LlmProvider` contract — currently Google Gemini, swappable
+without touching the tools. Every tool requires its own RBAC permission and is
+re-validated at execution time; the SQL tool is restricted to read-only `SELECT`
+inside the caller's tenant schema, with a forced row limit. Usage is metered as a
+monthly per-plan quota, and the API key never reaches the client.
 
-# 🎯 Career Interests
+**Master Color — public sales chatbot.** A storefront assistant answering product
+availability and pricing questions, deliberately built the *opposite* way: no tools
+at all. The product catalog is composed into the system prompt and the model can
+see nothing else — for an unauthenticated endpoint, no tool surface means no tool
+surface to abuse. Hardened with per-IP rate limiting, bounded message and history
+size, and a capped conversation window. Provider-agnostic behind a single
+interface, running a self-hosted **Ollama** model with **OpenRouter** as fallback.
+Code: [`master_color_api`](https://github.com/GiancarloGO/master_color_api).
 
-I am particularly interested in opportunities involving:
-
-- Backend Engineering
-- Data Engineering
-- Software Architecture
-- AI-Powered Business Automation
-- Cloud-Native Systems
-- SaaS Platforms
-- Process Optimization
-- Scalable Distributed Systems
-
----
-
-# 📫 Let's Connect
-
-💼 LinkedIn  
-https://linkedin.com/in/danielmoranv
-
-💻 GitHub  
-https://github.com/DanielMoranV
-
-📧 Email  
-skaan.dmv@gmail.com
+Two products, two deliberately different designs: tools plus per-user permissions
+where the audience is authenticated and the data is sensitive; context-only where
+the traffic is anonymous and the data is already public.
 
 ---
 
-⭐ Open to remote opportunities involving Backend Engineering, Data Engineering, Cloud Infrastructure and AI-powered solutions.
+## 📦 Open source
+
+| Package | What it is |
+|---|---|
+| **[sunat-comprobantes](https://github.com/DanielMoranV/sunat-comprobantes)** | Peruvian electronic invoicing (SUNAT) utilities. Published on Packagist as `djasoft/sunat-comprobantes` · MIT |
+| **[nomenclador](https://github.com/DanielMoranV/nomenclador)** | Bulk PDF invoice renaming with OCR fallback (Tesseract), following each insurer's required naming scheme |
+| **[almazen-api](https://github.com/DanielMoranV/almazen-api)** · **[almazen_frontend](https://github.com/DanielMoranV/almazen_frontend)** | The decoupled v2 of AlmaZen — Laravel API and Vue 3 client · PolyForm Noncommercial |
+| **[almazen-lite](https://github.com/DanielMoranV/almazen-lite)** | Free desktop edition of AlmaZen, in C# · PolyForm Noncommercial |
+
+---
+
+## 🎯 What I'm good at
+
+**Modernizing legacy systems.** Companies running on FoxPro and VFP that cannot simply
+"migrate to the cloud". I move their data to PostgreSQL without stopping their operation,
+and I have done it at 500,000-record scale.
+
+**Peruvian regulatory domain.** SUNAT electronic invoicing, SIAGIE and MINEDU for education,
+SUSALUD for healthcare, RENIEC and ubigeo data. This is the knowledge that makes local
+software actually usable — and it is the part a generic imported SaaS never gets right.
+
+**The whole product cycle.** Requirements and technical specification, development,
+deployment, and a client who pays for it. Not just the code in the middle.
+
+---
+
+## 📫 Let's connect
+
+💼 [LinkedIn](https://linkedin.com/in/danielmoranv) · 📧 skaan.dmv@gmail.com
+
+⭐ Open to remote roles in **Backend Engineering**, **Data Engineering** and
+**Cloud Infrastructure** — and to building custom business software for Peruvian companies.
