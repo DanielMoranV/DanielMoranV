@@ -3,8 +3,9 @@
 **Full Stack Developer · Data Engineer** — Piura, Peru
 
 I build business software that ships: multi-tenant ERPs, electronic invoicing,
-and the data pipelines that move companies off legacy systems. Eight products
-of mine are live in production today; four of them for paying clients.
+and the data pipelines that move companies off legacy systems. Most of my week
+goes into healthcare systems in daily clinical use; the rest into eight products
+of my own that are live in production, four of them for paying clients.
 
 📍 Piura, Peru · 📧 skaan.dmv@gmail.com · 💼 [LinkedIn](https://linkedin.com/in/danielmoranv)
 
@@ -22,6 +23,36 @@ of mine are live in production today; four of them for paying clients.
 | **Master Color** — *client* | E-commerce platform (in active development) | Laravel · Vue 3 · Flutter · AWS S3 | [mastercolor.net.pe](https://www.mastercolor.net.pe/) |
 | **SURGIMED** — *client* | Corporate site for a surgical equipment importer | Static · Firebase Hosting · GitHub Actions | [surgimed-pe.web.app](https://surgimed-pe.web.app/) |
 | **Agenda EH** | Eisenhower-matrix task manager with two-way Google Calendar sync | Vue 3 · Firestore · OAuth 2.0 | [agenda-eh.web.app](https://agenda-eh.web.app/) |
+
+---
+
+## 🏥 Healthcare systems — where most of my week goes
+
+The systems below run daily inside a private healthcare provider in Peru. **The code is
+closed and stays that way** — clinical data. What follows is the engineering, not the data.
+
+**Clinical intranet — API + SPA.** A Laravel 12 REST API behind a Vue 3 single-page
+application, used across admissions, medical records, HR and internal IT support.
+WebSockets (Laravel Reverb) push state between departments in real time instead of
+polling. The backend stamps data and signatures onto existing PDF templates rather than
+regenerating documents from scratch, and emits heavy analytical reports as Excel. The
+front end scans barcodes through the browser's camera, runs drag-and-drop scheduling over
+a live calendar, and builds PDF and Excel exports client-side so the server never touches
+them. JWT throughout, with input sanitised at the edge.
+
+**Medical insurance management — the full lifecycle.** Admissions, clinical histories,
+billing, medical audits and settlements, as a Laravel 11 API plus a Vue 3 client. Stateless
+JWT auth with role-based access control separating auditors, billing staff and
+administrators; real-time notifications over Reverb and Echo; bulk Excel import/export for
+invoices and audits; Chart.js dashboards. Containerised for production with Docker.
+
+**A binary FoxPro engine, written from scratch.** The hard one. Rather than depend on ODBC
+or Windows-only tooling, I built a cross-platform Python engine that reads *and writes*
+`.dbf` files at the byte level — parsing FoxPro's binary headers, null flags and
+end-of-file markers, reserving the legacy system's native auto-increment IDs to preserve
+referential integrity, and using byte-range locking so records can be appended **while
+staff are actively working in the 1990s FoxPro application**. No downtime, no corruption.
+This is what made migrating 500,000+ historical records possible without stopping a clinic.
 
 ---
 
@@ -121,8 +152,10 @@ the traffic is anonymous and the data is already public.
 ## 🎯 What I'm good at
 
 **Modernizing legacy systems.** Companies running on FoxPro and VFP that cannot simply
-"migrate to the cloud". I move their data to PostgreSQL without stopping their operation,
-and I have done it at 500,000-record scale.
+"migrate to the cloud" — because the old system is still open on every desk. I move their
+data to PostgreSQL without stopping the operation, at 500,000-record scale, using a binary
+engine I wrote for exactly that. Most backend developers have only ever met modern
+databases; far fewer have written a driver that appends to a 1990s one while it is in use.
 
 **Peruvian regulatory domain.** SUNAT electronic invoicing, SIAGIE and MINEDU for education,
 SUSALUD for healthcare, RENIEC and ubigeo data. This is the knowledge that makes local
