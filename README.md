@@ -14,7 +14,7 @@ of mine are live in production today; four of them for paying clients.
 
 | Product | What it does | Stack | Live |
 |---|---|---|---|
-| **AlmaZen ERP** | Multi-tenant ERP: inventory, purchasing, sales, POS, electronic invoicing | Laravel · Livewire · PostgreSQL | [almazen.djasoft.net.pe](https://almazen.djasoft.net.pe/) |
+| **AlmaZen ERP** | Multi-tenant ERP: inventory, purchasing, sales, POS, electronic invoicing | Laravel · Livewire · PostgreSQL | [almazenapp.djasoft.net.pe](https://almazenapp.djasoft.net.pe/) |
 | **MozaicoPro** | Restaurant and order management | Java · Vue 3 | [mozaicopro.djasoft.net.pe](https://mozaicopro.djasoft.net.pe/) |
 | **EasyPay** | HR, attendance and payroll | TypeScript · NestJS | [easypay.djasoft.net.pe](https://easypay.djasoft.net.pe/) |
 | **Otto Tonsmann** — *client* | Sales, cash desk and student registry for a technical institute | Vue 3 · Firebase | [otto-tonsmann.web.app](https://otto-tonsmann.web.app/) |
