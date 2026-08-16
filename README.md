@@ -15,11 +15,11 @@ of mine are live in production today; four of them for paying clients.
 | Product | What it does | Stack | Live |
 |---|---|---|---|
 | **AlmaZen ERP** | Multi-tenant ERP: inventory, purchasing, sales, POS, electronic invoicing | Laravel · Livewire · PostgreSQL | [almazenapp.djasoft.net.pe](https://almazenapp.djasoft.net.pe/) |
-| **MozaicoPro** | Restaurant and order management | Java · Vue 3 | [mozaicopro.djasoft.net.pe](https://mozaicopro.djasoft.net.pe/) |
+| **MozaicoPro** | Restaurant and order management, with real-time order updates over WebSockets | Go · Gin · React 19 · PostgreSQL | [mozaicopro.djasoft.net.pe](https://mozaicopro.djasoft.net.pe/) |
 | **EasyPay** | HR, attendance and payroll | TypeScript · NestJS | [easypay.djasoft.net.pe](https://easypay.djasoft.net.pe/) |
 | **Otto Tonsmann** — *client* | Sales, cash desk and student registry for a technical institute | Vue 3 · Firebase | [otto-tonsmann.web.app](https://otto-tonsmann.web.app/) |
 | **CONERI** — *client* | Corporate site, product catalog and admin panel for a solar energy company | Firebase · Cloud Functions · Cloudinary | [coneri.pe](https://coneri.pe/) |
-| **Master Color** — *client* | E-commerce platform (in active development) | Laravel · Vue 3 · Flutter | [mastercolor.net.pe](https://www.mastercolor.net.pe/) |
+| **Master Color** — *client* | E-commerce platform (in active development) | Laravel · Vue 3 · Flutter · AWS S3 | [mastercolor.net.pe](https://www.mastercolor.net.pe/) |
 | **SURGIMED** — *client* | Corporate site for a surgical equipment importer | Static · Firebase Hosting · GitHub Actions | [surgimed-pe.web.app](https://surgimed-pe.web.app/) |
 | **Agenda EH** | Eisenhower-matrix task manager with two-way Google Calendar sync | Vue 3 · Firestore · OAuth 2.0 | [agenda-eh.web.app](https://agenda-eh.web.app/) |
 
@@ -41,9 +41,10 @@ Ordered by how much I actually use it, not by what looks good.
 
 **Core**
 `PHP` · `Laravel` · `Livewire` — my backbone. AlmaZen ERP, electronic invoicing, inventory.
-`Vue 3` · `PrimeVue` · `Pinia` · `TailwindCSS` — the front end of nearly everything I ship.
+`Go` · `Gin` · `sqlx` — MozaicoPro's backend: hand-written SQL over an ORM, JWT, WebSockets.
+`Vue 3` · `PrimeVue` · `Pinia` · `TailwindCSS` — the front end of most of what I ship.
+`TypeScript` · `React 19` · `NestJS` · `Express` — SPAs and decoupled APIs.
 `Python` — not for web: ETL, legacy data migration, analytics, OCR automation.
-`TypeScript` · `NestJS` · `Express` — decoupled APIs and services.
 
 **Also shipping**
 `C#` (Windows desktop) · `Dart` / `Flutter` (mobile, offline-first) · `Java` · `Blade`
@@ -69,7 +70,10 @@ Legacy sources: `FoxPro` / `DBF`
   logic with no network and no backend.
 - **ETL and legacy modernization** — FoxPro/DBF to PostgreSQL and MySQL, with data quality
   checks and scheduled jobs.
+- **Real-time** — WebSocket channels pushing order state to kitchen and floor as it changes.
 - **Queues and scheduled jobs** — BullMQ over Redis, cron-driven processes.
+- **Object storage** — product media on AWS S3, served straight from the bucket by absolute
+  URL so the application server never handles image traffic.
 - **Modular monolith** — Laravel + Livewire when a SPA would only add moving parts.
 - **Packaged desktop apps** — C# and Python compiled to portable Windows executables.
 
