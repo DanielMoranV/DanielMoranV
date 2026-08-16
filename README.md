@@ -4,8 +4,8 @@
 
 I build business software that ships: multi-tenant ERPs, electronic invoicing,
 and the data pipelines that move companies off legacy systems. Most of my week
-goes into healthcare systems in daily clinical use; the rest into eight products
-of my own that are live in production, four of them for paying clients.
+goes into the clinical systems I maintain at **Clínica Santa Rosa**; the rest into
+eight products of my own that are live in production, four of them for paying clients.
 
 📍 Piura, Peru · 📧 skaan.dmv@gmail.com · 💼 [LinkedIn](https://linkedin.com/in/danielmoranv)
 
@@ -28,7 +28,8 @@ of my own that are live in production, four of them for paying clients.
 
 ## 🏥 Healthcare systems — where most of my week goes
 
-The systems below run daily inside a private healthcare provider in Peru. **The code is
+I build and maintain the systems below at **Clínica Santa Rosa** (Piura, Peru), where they
+are in daily use across admissions, medical records, billing and support. **The code is
 closed and stays that way** — clinical data. What follows is the engineering, not the data.
 
 **Clinical intranet — API + SPA.** A Laravel 12 REST API behind a Vue 3 single-page
